@@ -24,7 +24,7 @@ const studys = [
     { value: 23, name: 'ホームルーム'},
     { value: 24, name: '情報英語基礎'},
   ]
-  const jsSelectBox = document.querySelector('.js-selectbox');
+  const jsSelectBox = document.querySelector('js-selectbox');
   const selectWrap = document.createElement('div');
   selectWrap.classList.add('selectwrap');
   const select = document.createElement('select');
